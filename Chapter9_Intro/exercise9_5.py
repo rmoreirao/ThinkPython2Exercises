@@ -1,4 +1,4 @@
-from Chapter9_Intro import chapter9Util
+from Util.wordListUtil import wordListUtil
 
 def uses_all(word,requitedLetters):
     for letter in requitedLetters:

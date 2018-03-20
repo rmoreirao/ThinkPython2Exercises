@@ -1,4 +1,4 @@
-from Chapter9_Intro import chapter9Util
+from Util.wordListUtil import wordListUtil
 
 def isThreeConsecutiveDoubleLetter(word):
     if len(word) < 6:

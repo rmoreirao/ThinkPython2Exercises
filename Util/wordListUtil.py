@@ -1,4 +1,4 @@
-class chapte11Util:
+class wordListUtil:
     @staticmethod
     def readWordsDocAsDictionary():
         wordsDict = dict()

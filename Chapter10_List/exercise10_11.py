@@ -1,4 +1,4 @@
-from Chapter10_List import chapter10Util
+from Util.wordListUtil import wordListUtil
 
 def in_bisect(word,words):
     if len(words) == 0:
@@ -15,7 +15,7 @@ def in_bisect(word,words):
         return in_bisect(word, words[:mid])
 
 
-words = chapter10Util.chapter10Util.readWordsDoc()
+words = wordListUtil.readWordsDoc()
 for word in words:
     if in_bisect(word[::-1],words):
         print(word + " <-> " + word[::-1])

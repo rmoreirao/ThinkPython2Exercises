@@ -1,4 +1,4 @@
-from Chapter9_Intro import chapter9Util
+from Util.wordListUtil import wordListUtil
 
 def is_abecedarian_from_the_book(word):
     previous = word[0]

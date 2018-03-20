@@ -1,6 +1,6 @@
 import time
 
-from Chapter11_Dict.chapter11Util import chapte11Util
+from Util.wordListUtil import wordListUtil
 
 
 def in_bisect(word, words):
@@ -18,8 +18,8 @@ def in_bisect(word, words):
         return in_bisect(word, words[:mid])
 
 
-wordsList = chapte11Util.readWordsDoc()
-wordsDict = chapte11Util.readWordsDocAsDictionary()
+wordsList = wordListUtil.readWordsDoc()
+wordsDict = wordListUtil.readWordsDocAsDictionary()
 wordsToFind = wordsList[:5000]
 
 count = 0

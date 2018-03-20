@@ -1,5 +1,5 @@
 import time
-from Chapter10_List import chapter10Util
+from Util.wordListUtil import wordListUtil
 
 words = chapter10Util.chapter10Util.readWordsDoc()
 

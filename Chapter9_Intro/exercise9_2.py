@@ -1,9 +1,9 @@
-from Chapter9_Intro import chapter9Util
+from Util.wordListUtil import wordListUtil
 
 def has_no_e(word):
     return "e" not in word
 
-words = chapter9Util.chapter9Util.readWordsDoc()
+words = wordListUtil.readWordsDoc()
 
 total = len(words)
 noEWordCount = 0

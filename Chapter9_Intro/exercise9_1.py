@@ -1,6 +1,6 @@
-from Chapter9_Intro import chapter9Util
+from Util.wordListUtil import wordListUtil
 
-words = chapter9Util.chapter9Util.readWordsDoc()
+words = wordListUtil.readWordsDoc()
 for word in words:
     if len(word.replace(" ", "")) > 20:
         print(word)
